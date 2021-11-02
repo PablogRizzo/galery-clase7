@@ -120,6 +120,7 @@ button{
 }
 
 .left{
+    text-align: end;
     font-weight: bold;
 }
 
