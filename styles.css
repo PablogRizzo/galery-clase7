@@ -38,7 +38,7 @@ button{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 200px;
+    width: 270px;
     height: 30px;
     border-radius: 5px;
     margin: 0 0 0 10px;
@@ -51,6 +51,7 @@ input{
     color: #fff;
     margin: 0 0 0 10px;
     font-size: large;
+    outline: none;
 }
 
 .buscador i{
@@ -90,7 +91,7 @@ input{
 
 .card:hover{
     border: 1px solid lightskyblue;
-    
+
 }
 
 .imgen{
@@ -139,10 +140,6 @@ input{
 
 .left li{
     margin: 6px 0 0 0;
-}
-
-.left button{
-    
 }
 
 .active{
