@@ -14,6 +14,7 @@ body{
 .header{
     position: relative;
 }
+
 .top{
     display: flex;
     color: #fff;
@@ -31,6 +32,7 @@ button{
     border-radius: 5px;
 }
 
+
 .buscador{
     position: relative;
     display: flex;
@@ -43,13 +45,17 @@ button{
     background: rgba(241, 229, 229, 0.1);
 }
 
-.buscador i{
+input{
+    border: none;
+    background: none;
     color: #fff;
-    margin: 0 5px 0 5px;
+    margin: 0 0 0 10px;
+    font-size: large;
 }
 
-.buscador h3{
-    color: #4e545e;
+.buscador i{
+    color: #fff;
+    margin: 0 5px 0 10px;
 }
 
 .container-gallery{
@@ -69,9 +75,12 @@ button{
     height: 100%;
 }
 
+
 .card{
+    flex-shrink: 0;
     position: relative;
     background: #1d283c;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     width: 250px;
@@ -79,10 +88,14 @@ button{
     margin: 10px;
 }
 
+.card:hover{
+    border: 1px solid lightskyblue;
+    
+}
+
 .imgen{
     position: absolute;
     border-radius: 5px;
-    
     background-size: cover;
     background-position: center;
     width: 95%;
