@@ -115,7 +115,7 @@ button{
     color: gray;
 }
 
-.rigth p{
+.rigth li{
     margin: 6px 0 0 0;
 }
 
@@ -124,7 +124,7 @@ button{
     font-weight: bold;
 }
 
-.left p{
+.left li{
     margin: 6px 0 0 0;
 }
 
@@ -146,4 +146,8 @@ button{
     font-weight: bold;
     width: 80px;
     height: 20px;
+}
+
+ul{
+    list-style: none;
 }
